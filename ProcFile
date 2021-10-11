@@ -1,2 +1,2 @@
 release: python proyectoORT/release.py
-web: gunicorn proyectoORT.proyectoORT.wsgi
+web: cd proyectoORT; gunicorn proyectoORT.wsgi
